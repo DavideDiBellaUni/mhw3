@@ -1,0 +1,408 @@
+
+a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+       
+}
+.favourites:hover{
+    cursor: pointer;
+}
+
+body{
+    margin:0;
+    font-family: 'Coolvetica', sans-serif;
+ }
+
+#links a{
+    cursor:pointer;
+    border-radius: 100px;
+    padding:5px;
+    margin: 10px;
+    font-size: 25px;
+    color: whitesmoke;   
+}
+
+#insta img{
+    width:30px;
+    margin-bottom: -5px; 
+   
+}
+
+div #title{
+    flex-direction: column;
+}
+#title img{
+    width: 200px;
+   
+}
+#logo img{
+    width: 50px; 
+    margin-right: -5px;     
+}
+#logo{
+    font-size: 40px;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+    
+
+#overlay{
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
+#title{
+    display: flex; /*per mettere il titolo a centro pagina,devo trasformare il contenitore in un flex*/
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 94%;
+    width: 100%;
+    
+}
+
+header{   
+    background-image:url(16.jpg);  
+    background-size:cover;
+    background-position: center ;
+    position: relative;
+    height:500px;
+    width: 100%; 
+   
+}
+
+header h1{    
+    font-size: 50px; 
+    font-weight: normal;
+    color: whitesmoke;
+    text-shadow: 7px 5px black;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0;
+}
+section h1{
+    margin-top: 0;
+    padding-top:100px;
+    color: black;
+    font-family: 'Comfortaa', cursive;;
+    text-align: center;
+    font-size: 70px;
+}
+
+section article{
+    color: white;
+    padding: 8px;
+    font-size: 1em;
+    
+}
+.sezione h3{
+    color:white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black; 
+    margin-top: 10px; 
+}
+
+section .motivational{
+    margin:20px;
+    background-color: #325288;
+    padding: 10px;
+    
+    border-radius: 30px;
+}
+
+section .motivational h1{
+    font-size: 30px;
+    margin:5px;
+    padding: 0;
+    color: white;
+}
+
+section .motivational h2,#quote h2{
+    font-size: 40px;
+    margin:5px;
+    
+    letter-spacing: 2px;
+    text-shadow: 3px 2px black;
+    color:white;
+    background-color: #2978b5;
+    border-radius: 30px;
+    padding:10px;
+    
+}
+
+
+#title .sicon{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+
+#searchBar{
+    display: flex;
+   justify-content: center;
+   background-color: white;
+   border-radius: 30px;
+   
+}
+#searchTab{
+    background-image: url(white.jpg);
+    border-image-repeat: none;
+    background-size: cover;
+    background-position: center ;
+}
+
+#searchTab h1{
+    text-align:  center;
+    font-size: 3em;
+    margin-top:0;
+}
+
+
+.show{
+    display: flex;
+    justify-content: space-between;
+}
+
+header input{
+    
+    border-radius: 30px;
+    width: 400px;
+    height: 30px;
+    border-color: white;
+    padding-left:20px;
+       
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color:rgba(0,0,0, 30%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top:0;
+    z-index: 1; 
+}
+
+section{
+    background-image: url(white.jpg);
+    border-image-repeat: none;
+    background-size:cover;
+    background-position: center ;
+    text-align: center;
+    display: block;
+    
+}
+
+#preferiti h1{
+    color: black;
+}
+.hidden{
+    display:none;
+    align-items: center;
+}
+.hidden1{
+    display:none;
+    align-items: center;
+}
+
+.hidden2{
+    display:none;
+}
+
+div.contenitore{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+div.sezione{
+    border-radius: 30px;
+    width: 280px;
+    margin:30px;
+}
+.interno{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#blue{
+    background-color: #12abc1;
+}
+#verde{
+    background-color: #19a784;
+}
+#arancio{
+    background-color: #f07c21;
+}
+#bordeaux{
+    background-color: #c21c5d;
+}
+div.sezione img{
+    height: 50%;
+    width: 50%;
+    border-radius: 30px;   
+}
+
+div.sezione img.favourites{
+    margin-top: 20px;
+    height:30px;
+    width:30px;
+    border-radius: 0;   
+}
+
+#quote h3:hover{
+
+    background-color: #2978b5;
+    cursor: pointer;
+}
+
+
+
+#quote{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#quote h3{
+    text-align: center;
+    border-radius: 30px;
+    background-color:  #8ab6d6; 
+    font-size: 55px;
+    text-shadow: 3px 2px black;
+    padding:10px;
+    color:white;
+    letter-spacing: 1px;
+    margin:20px;
+}
+
+
+.SpotifAPI{
+    display: inline-block;
+    margin:30px;
+    background-color: #1db954;
+    border-radius: 30px;
+}
+ .SpotifAPI img{
+     width: 200px;
+     height:70px;
+     margin:5px;
+ }
+
+ .SpotifAPI p{
+     margin:20px;
+     font-size: 50px;
+ }
+.SpotifAPI form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SpotifAPI input{
+    display: inline-block;
+    border-radius: 20px;
+    margin: 5px;
+    padding:5px;
+
+}
+
+#cerca{
+    background-color: black;
+    color: white ;
+    width: 70px;
+    height: 30px;
+    font-size: 14px;
+    border:2px solid #121212;
+    align-items: center;
+}
+
+#cerca:hover{
+    color:  #1db954;
+    cursor: pointer;
+}
+
+#track{
+    width: 300px;
+    height: 20px;
+    padding-left: 15px;
+}
+
+.SpotifAPI iframe{
+    border-radius: 20px;
+    margin:20px;
+}
+footer{
+background-color: rgba(0,0,0,.7);
+color: white;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+padding:10px;
+
+}
+
+footer span{
+    text-align: center;
+    font-size: 20px;
+    margin:5px;
+}
+
+#menu {
+    display: none;
+  }
+  
+  #menu div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 10px;
+  }
+  
+
+@media (max-width: 585px) {
+    div.contenitore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+   
+    #menu{
+        display: block;
+    }
+
+   section h1{
+       font-size: 2.5em ;
+   }
+
+   section h2{
+       font-size: 1.5em ;
+       margin: 5px;
+   }
+
+   #title img{
+    width: 140px;
+}
+
+   #title h1{
+       font-size: 30px;
+       text-shadow: 5px 3px black;
+   }
+
+
+    #links{
+        display:none;
+    }
+
+  }
